@@ -1,0 +1,19 @@
+{
+  "name": "learning-ci-cd-pipelining",
+  "version": "1.0.0",
+  "description": "This repository is just for learning purpose of CI/CD Pipelining using GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "jest src/app.test.js"
+  },
+  "author": "Subrata Rudra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
